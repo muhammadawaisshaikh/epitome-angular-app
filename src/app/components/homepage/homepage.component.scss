@@ -1,0 +1,476 @@
+@import '/src/styles.scss';
+
+
+.slider{
+    background-color: #efe7d5;
+    padding-top: 8%;
+    width: 100%;
+    height: 40vh;
+}
+
+.slider .left{
+    background-color: #e79b83;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    position: absolute;
+    left: 22%;
+    bottom: 43%;
+} 
+
+.slider .heading h1{
+    padding: 0px 15%;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.slider .right{
+    background-color: #e79b83;
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    position: absolute;
+    right: 18%;
+    bottom: 40%;
+}
+
+.signup-button{
+    padding: 7% 0;
+}
+
+.signup-button a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #25695c;
+    border-radius: 50px;
+    padding: 5px 25px;
+}
+
+.works{
+    background-color: #25695c;
+    padding: 10% 0 15% 0;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.works h1{
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+}
+
+.works .image img{
+    position: absolute;
+    left: 55%;
+    top: -60px;
+    width: 35%;
+    height: auto;
+}
+
+.works .left-circle{
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+}
+
+.works .right-side-points{
+    padding-top: 20%;
+}
+
+.works .right-side-points ul{
+    list-style: none;
+    margin-bottom: auto;
+}
+
+.works .right-side-points li{
+    padding-top: 15px;
+}
+
+.works .right-side-points a{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.define{
+    background-color: #efe7d5;
+    padding: 7% 0 15% 0;
+}
+
+.define h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.define p{
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+}
+
+.main-cards{
+    padding: 5% 0;
+}
+
+.main-cards .card{
+    background-color: #25695c;
+    border: 1px solid #25695c;
+    padding: 8px 12px;
+    border-radius: 13px;
+    margin-top: 3%;
+    width: 50%;
+    height: 120px;
+}
+
+.main-cards .card h6{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.main-cards .card .seprator{
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    margin-top: 6px;
+}
+
+.main-cards .card p{
+    color: white;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.about{
+    background-color: #907d5a;
+    padding: 7% 0;
+}
+
+.about h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.about p{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.join{
+    padding: 7% 0;
+}
+
+.join h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #907d5a;
+}
+
+.register{
+   background-color: #28332d;
+   padding: 8% 0px 15px 0px;
+}
+
+.register .main{
+   text-align: center;
+}
+
+.register h1{
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+.register h5{
+    color: white;
+    padding-top: 5px;
+}
+
+.register input{
+    width: 335.3px;
+    height: 33.3px;
+    margin-top: 15px;
+    border-radius: 16.5px;
+    background-color: #e8dbc1;
+}
+
+.register .signup a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #25695c;
+    border-radius: 50px;
+    padding: 5px 25px;
+}
+
+.register .footer{
+    padding-top: 7%;
+}
+
+.register .footer .left-email{
+    float: left;
+}
+
+.register .footer .left-email p{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.register .footer .right-email{
+    float: right;
+}
+
+.register .footer .right-email p{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1920px)
+{
+
+}
+
+@media screen and (max-width: 1366px)
+{
+    
+}
+
+@media screen and (max-width: 768px)
+{
+    .slider .heading h1{
+        padding: 0 5%;
+        font-size: 42px;
+    }
+
+    .slider .left{
+        width: 100px;
+        height: 100px;
+        left: 7%;
+        bottom: 61%;
+    } 
+    
+    .slider .right{
+        width: 160px;
+        height: 160px;
+        right: 3%;
+        bottom: 60%;
+    }
+
+    .works{
+        padding: 10% 0;
+        height: 65vh;
+    }
+
+    .works h1{
+        font-size: 50px;
+    }
+
+    .works .image img{
+        left: 65%;
+        top: -45px;
+        width: 40%;
+    }
+
+    .works .left-circle{
+        left: 10%;
+        top: 40%;
+    }
+
+    .works .right-side-points{
+        padding-top: 30%;
+    }
+
+    .works .right-side-points a{
+        font-size: 22px;
+    }
+
+    .define h1{
+        font-size: 40px;
+    } 
+
+    .define p{
+        font-size: 13px;
+    } 
+
+    .main-cards .card{
+        width: 85%;
+        height: 150px;
+    }
+
+    .about{
+        padding: 10% 0;
+    }
+    
+    .about h1{
+        font-size: 40px;
+    }
+    
+    .about p{
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px)
+{
+    .slider{
+        padding: 25% 0;
+        width: 100%;
+        height: 40vh;
+    }
+
+    .slider .heading h1{
+        padding: 0 5%;
+        font-size: 24px;
+    }
+
+    .slider .left{
+        width: 70px;
+        height: 70px;
+        left: 5%;
+        bottom: 65%;
+    }
+
+    .slider .right{
+        width: 100px;
+        height: 100px;
+        right: 4%;
+        bottom: 65%;
+    }
+
+    .signup-button{
+        padding: 10% 0;
+    }
+
+    .works{
+        padding: 20% 0;
+        height: 80vh;
+    }
+
+    .works h1{
+        font-size: 40px;
+    }
+
+    .works .image img{
+        left: 45%;
+        top: -40px;
+        width: 30%;
+    }
+
+    .works .left-circle{
+        width: 120px;
+        height: 120px;
+        left: 10%;
+        top: 70%;
+    }
+
+    .define h1{
+        font-size: 35px;
+    } 
+
+    .join{
+        padding: 10% 0;
+    }
+    
+    .join h4{
+        text-align: center;
+    }
+
+    .register h5{
+        font-size: 16px;
+    }
+
+    .register .footer{
+        padding-top: 10%;
+        text-align: center;
+    }
+    
+    .register .footer .left-email{
+        float: unset;
+    }
+    
+    .register .footer .left-email p{
+        font-size: 15px;
+    }
+    
+    .register .footer .right-email{
+        float: unset;
+    }
+    
+    .register .footer .right-email p{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 425px)
+{
+    
+}
+
+@media screen and (max-width: 375px)
+{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
